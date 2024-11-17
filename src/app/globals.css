@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  /* color: var(--foreground);
+  background: var(--background); */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/*.image-first {
+  background-image: url("../../public/assets/images/BG_home.png");
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}*/
+
+/** {
+  transition: all 3s ease-in-out;
+}*/
+
+html,
+body {
+  overflow: hidden;
+  height: 100dvh;
+  scroll-behavior: smooth;
+}
+
+
+
+
+.scroll-container {
+  overflow: hidden;
+  /* Prevent scrollbars in the scroll container */
+}
+
+.section {
+  height: 100dvh;
+  margin-top: 64px;
+  /* Make each section take full height of the viewport */
+}
