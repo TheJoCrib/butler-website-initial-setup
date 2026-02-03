@@ -122,7 +122,7 @@ const HomeDesigner: FC = () => {
                     One-stop app for client and designers.
                   </p>
                 </div>
-                <div className=" w-[40%]  flex justify-center items-center">
+                <div className=" w-[60%]  flex justify-center items-center">
                   <Image
                     src="/assets/images/svg/mobiles/designer_fourth_mobile.svg"
                     alt="phone"
